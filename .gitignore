@@ -1,0 +1,10 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+# Ignore Terraform plan files
+*.tfplan
+# Ignore Terraform lock files
+*.lock.hcl
+.terraform.lock.hcl
+# Ignore any other local Terraform files
+.terraform/
